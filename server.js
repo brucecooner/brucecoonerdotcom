@@ -26,7 +26,7 @@ function getPhotos(params, callback)
    var requestPath = '/services/rest'
 
    var method = 'flickr.people.getPublicPhotos'
-   var apiKey = 'process.env.FLICKR_API_KEY'
+   var apiKey = process.env.FLICKR_API_KEY
    // var userId = '97403545@N00'
    var format = 'json'
    var resultsPerPage = 10
